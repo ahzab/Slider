@@ -1,0 +1,24 @@
+{
+    "name": "ahzab/slider",
+    "description": "",
+    "authors": [
+        {
+            "name": "Abdelhak Ahzab",
+            "email": "hi@newwaylab.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/controllers"
+        ],
+        "psr-0": {
+            "Ahzab\\Slider\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
